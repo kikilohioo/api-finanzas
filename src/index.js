@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const { pool } = require('./config/database');
 const expensesRouter = require('./routes/expenses');
 const categoriesRouter = require('./routes/categories');
 const alertsRouter = require('./routes/alerts');

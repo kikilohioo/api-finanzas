@@ -1,6 +1,7 @@
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 const router = express.Router();
-const { pool } = require('../config/database');
 const { body, validationResult } = require('express-validator');
 
 // Validation middleware
@@ -14,89 +15,121 @@ const validateExpense = [
 
 // Get expenses with filters
 router.get('/', async (req, res) => {
-  try {
-    const { startDate, endDate, categoryId } = req.query;
-    let query = `
-      SELECT e.*, c.name as category_name 
-      FROM expenses e 
-      JOIN categories c ON e.category_id = c.id 
-      WHERE 1=1
-    `;
-    const params = [];
+  const filePath = path.join(__dirname, '../db/expenses.json');
+  const { startDate, endDate } = req.query;
 
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error al leer expenses.json:', err);
+      res.status(500).json({ message: 'Error al leer los gastos.' });
+      return;
+    }
+
+    let expenses = JSON.parse(data || '[]');
+
+    // Filtrar los gastos si se han proporcionado fechas de inicio y fin
     if (startDate && endDate) {
-      query += ` AND e.date BETWEEN $${params.length + 1} AND $${params.length + 2}`;
-      params.push(startDate, endDate);
+      const start = new Date(startDate);
+      const end = new Date(endDate);
+
+      expenses = expenses.filter((expense) => {
+        const expenseDate = new Date(expense.date);
+        return expenseDate >= start && expenseDate <= end;
+      });
     }
 
-    if (categoryId) {
-      query += ` AND e.category_id = $${params.length + 1}`;
-      params.push(categoryId);
-    }
-
-    query += ' ORDER BY e.date DESC';
-    
-    const { rows } = await pool.query(query, params);
-    res.json(rows);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+    res.status(200).json(expenses);
+  });
 });
 
 // Create expense
 router.post('/', validateExpense, async (req, res) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
-  }
+  const expense = req.body;
+  const filePath = path.join(__dirname, '../db/expenses.json');
 
-  try {
-    const { amount, store, paymentType, date, categoryId } = req.body;
-    const { rows } = await pool.query(
-      'INSERT INTO expenses (amount, store, payment_type, date, category_id) VALUES ($1, $2, $3, $4, $5) RETURNING *',
-      [amount, store, paymentType, date || new Date(), categoryId]
-    );
-    res.status(201).json(rows[0]);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+  // Leer archivo si existe o iniciar un array vacío
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    let expenses = [];
+    if (!err && data) {
+      expenses = JSON.parse(data);
+    }
+
+    // Agregar el nuevo gasto al array
+    expenses.push(expense);
+
+    // Guardar el array actualizado en el archivo
+    fs.writeFile(filePath, JSON.stringify(expenses, null, 2), (writeErr) => {
+      if (writeErr) {
+        console.error('Error al escribir en expenses.json:', writeErr);
+        res.status(500).json({ message: 'Error al guardar el gasto.' });
+      } else {
+        res.status(201).json({ message: 'Gasto registrado con éxito.' });
+      }
+    });
+  });
 });
 
 // Update expense
-router.put('/:id', validateExpense, async (req, res) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
-  }
+router.put('/:id', (req, res) => {
+  const { id } = req.params;
+  const updatedExpense = req.body;
+  const filePath = path.join(__dirname, '../db/expenses.json');
 
-  try {
-    const { id } = req.params;
-    const { amount, store, paymentType, date, categoryId } = req.body;
-    const { rows } = await pool.query(
-      'UPDATE expenses SET amount = $1, store = $2, payment_type = $3, date = $4, category_id = $5 WHERE id = $6 RETURNING *',
-      [amount, store, paymentType, date, categoryId, id]
-    );
-    if (rows.length === 0) {
-      return res.status(404).json({ error: 'Expense not found' });
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error al leer expenses.json:', err);
+      res.status(500).json({ message: 'Error al leer los gastos.' });
+      return;
     }
-    res.json(rows[0]);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+
+    let expenses = JSON.parse(data || '[]');
+    const expenseIndex = expenses.findIndex((expense) => expense.id === id);
+
+    if (expenseIndex !== -1) {
+      expenses[expenseIndex] = { ...expenses[expenseIndex], ...updatedExpense };
+
+      fs.writeFile(filePath, JSON.stringify(expenses, null, 2), (writeErr) => {
+        if (writeErr) {
+          console.error('Error al actualizar el gasto:', writeErr);
+          res.status(500).json({ message: 'Error al actualizar el gasto.' });
+        } else {
+          res.status(200).json({ message: 'Gasto actualizado con éxito.' });
+        }
+      });
+    } else {
+      res.status(404).json({ message: 'Gasto no encontrado.' });
+    }
+  });
 });
 
-// Delete expense
-router.delete('/:id', async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { rows } = await pool.query('DELETE FROM expenses WHERE id = $1 RETURNING *', [id]);
-    if (rows.length === 0) {
-      return res.status(404).json({ error: 'Expense not found' });
+// Ruta para eliminar un gasto por id
+router.delete('/:id', (req, res) => {
+  const { id } = req.params;
+  const filePath = path.join(__dirname, '../db/expenses.json');
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error al leer expenses.json:', err);
+      res.status(500).json({ message: 'Error al leer los gastos.' });
+      return;
     }
-    res.json({ message: 'Expense deleted successfully' });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+
+    let expenses = JSON.parse(data || '[]');
+    const filteredExpenses = expenses.filter((expense) => expense.id !== id);
+
+    if (filteredExpenses.length === expenses.length) {
+      res.status(404).json({ message: 'Gasto no encontrado.' });
+    } else {
+      fs.writeFile(filePath, JSON.stringify(filteredExpenses, null, 2), (writeErr) => {
+        if (writeErr) {
+          console.error('Error al eliminar el gasto:', writeErr);
+          res.status(500).json({ message: 'Error al eliminar el gasto.' });
+        } else {
+          res.status(200).json({ message: 'Gasto eliminado con éxito.' });
+        }
+      });
+    }
+  });
 });
 
 // Get expense summary

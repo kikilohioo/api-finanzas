@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const { pool } = require('../config/database');
 const { body, validationResult } = require('express-validator');
 
 // Get all categories
