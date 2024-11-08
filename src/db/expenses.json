@@ -6,5 +6,13 @@
     "paymentType": "debit",
     "date": "2024-11-06T03:00:00.000Z",
     "category": "Comida"
+  },
+  {
+    "id": "adb5028b-6e0e-43e7-b9c8-e284d66a074f",
+    "amount": "74",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-11-07",
+    "category": "Comida"
   }
 ]
