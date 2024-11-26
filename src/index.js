@@ -1,14 +1,21 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
+const fs = require('fs');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const router = express.Router();
 const incomesRouter = require('./routes/incomes');
 const expensesRouter = require('./routes/expenses');
 const alertsRouter = require('./routes/alerts');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+const tagsPaymentTypes = {
+  cash: 'Efectivo',
+  debit: 'Debito',
+  credit: 'Credito'
+}
 
 // Middleware
 app.use(helmet());
@@ -22,17 +29,15 @@ app.use('/api/expenses', expensesRouter);
 app.use('/api/alerts', alertsRouter);
 
 // Summary route
-router.get('/summary', async (req, res) => {
+app.get('/api/summary', async (req, res) => {
   const { startDate, endDate } = req.query;
-  const expensesFilePath = path.join(__dirname, '../db/expenses.json');
-  const incomesFilePath = path.join(__dirname, '../db/incomes.json');
+  const expensesFilePath = path.join(__dirname, './db/expenses.json');
+  const incomesFilePath = path.join(__dirname, './db/incomes.json');
 
   try {
-    // Read expenses and incomes data
     const expensesData = JSON.parse(fs.readFileSync(expensesFilePath, 'utf8') || '[]');
     const incomesData = JSON.parse(fs.readFileSync(incomesFilePath, 'utf8') || '[]');
 
-    // Filter by date range if specified
     const start = startDate ? new Date(startDate) : new Date(0);
     const end = endDate ? new Date(endDate) : new Date();
 
@@ -46,27 +51,34 @@ router.get('/summary', async (req, res) => {
       return itemDate >= start && itemDate <= end;
     });
 
-    // Calculate totals and groupings
     const totalExpenses = filteredExpenses.reduce((acc, item) => acc + parseFloat(item.amount), 0);
     const totalIncomes = filteredIncomes.reduce((acc, item) => acc + parseFloat(item.amount), 0);
 
-    const byCategory = filteredExpenses.reduce((acc, item) => {
+    const expensesByCategory = filteredExpenses.reduce((acc, item) => {
       const category = item.category || 'Unknown';
       acc[category] = (acc[category] || 0) + parseFloat(item.amount);
       return acc;
     }, {});
 
-    const byPaymentType = filteredExpenses.reduce((acc, item) => {
+    const incomesBySource = filteredIncomes.reduce((acc, item) => {
+      const source = item.source || 'Unknown';
+      acc[source] = (acc[source] || 0) + parseFloat(item.amount);
+      return acc;
+    }, {});
+
+    const expensesByPaymentType = filteredExpenses.reduce((acc, item) => {
       const paymentType = item.paymentType || 'Other';
-      acc[paymentType] = (acc[paymentType] || 0) + parseFloat(item.amount);
+      const translatedType = tagsPaymentTypes[paymentType] || 'Otro'; // Traducción o valor por defecto
+      acc[translatedType] = (acc[translatedType] || 0) + parseFloat(item.amount);
       return acc;
     }, {});
 
     res.json({
       totalExpenses,
       totalIncomes,
-      byCategory: Object.keys(byCategory).map((name) => ({ name, value: byCategory[name] })),
-      byPaymentType: Object.keys(byPaymentType).map((name) => ({ name, value: byPaymentType[name] })),
+      expensesByCategory: Object.keys(expensesByCategory).map((name) => ({ name, value: expensesByCategory[name] })),
+      expensesByPaymentType: Object.keys(expensesByPaymentType).map((name) => ({ name, value: expensesByPaymentType[name] })),
+      incomesBySource: Object.keys(incomesBySource).map((name) => ({ name, value: incomesBySource[name] })),
     });
   } catch (err) {
     console.error('Error fetching summary:', err);

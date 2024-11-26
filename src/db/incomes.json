@@ -1,9 +1,79 @@
 [
   {
-    "id": "c5050ea2-9fa0-4cfd-b5c8-9d21e414b95f",
-    "amount": "5264",
+    "id": "a78a325d-4ddf-47ed-b6cf-e0f25e7045e2",
+    "amount": "23232",
+    "source": "Sueldo",
+    "date": "2024-11-05",
+    "description": "Sueldo menos retencion ANDA"
+  },
+  {
+    "id": "6aed7d0d-bd66-4981-95d0-2c447ec40207",
+    "amount": "1803",
     "source": "Otros",
-    "date": "2024-11-08",
-    "description": "Devolución alquiler Pau"
+    "date": "2024-11-07",
+    "description": "Ajuste La Casona parte de Aba"
+  },
+  {
+    "id": "1e09c7ff-7772-42b1-8d67-b752fc2f6b15",
+    "amount": "3920",
+    "source": "Otros",
+    "date": "2024-11-11",
+    "description": "Ajuste La Casona parte de Pabol"
+  },
+  {
+    "id": "7fdadf4e-c9f7-4d29-98ca-76386d1b2c58",
+    "amount": "7000",
+    "source": "Otros",
+    "date": "2024-11-05",
+    "description": "Ajuste La Casona parte de Pau + otros"
+  },
+  {
+    "id": "138511cf-6a83-459a-a03f-49b13f1c0f22",
+    "amount": "1268",
+    "source": "Otros",
+    "date": "2024-11-05",
+    "description": "Devolucion Manolo"
+  },
+  {
+    "id": "48a23dac-b0d1-4ec9-addd-dbc2dc85fd08",
+    "amount": "150",
+    "source": "Otros",
+    "date": "2024-11-13",
+    "description": "Devolucion Pau"
+  },
+  {
+    "id": "4395afd4-a953-4fa5-b714-5f2cefbcb757",
+    "amount": "1000",
+    "source": "Otros",
+    "date": "2024-11-13",
+    "description": "Redondeo ajuste Pau"
+  },
+  {
+    "id": "b426ccc6-5a4e-41ca-a95d-b97a72d7e0c9",
+    "amount": "170",
+    "source": "Otros",
+    "date": "2024-11-14",
+    "description": "Devolucion Manolo"
+  },
+  {
+    "id": "3e7eac6a-cc5f-447d-8ebe-11bd8f706bff",
+    "amount": "120",
+    "source": "Otros",
+    "date": "2024-11-15",
+    "description": "plata tia para la coca"
+  },
+  {
+    "id": "13c47569-6662-4baa-b02f-947e83796621",
+    "amount": "500",
+    "source": "Otros",
+    "date": "2024-11-17",
+    "description": "plata pau ayuda cosas del finde"
+  },
+  {
+    "id": "9725e0f0-fdc0-45f7-b67d-221f646d2b50",
+    "amount": "100",
+    "source": "Otros",
+    "date": "2024-11-19",
+    "description": "devolucion Pau boleto"
   }
 ]

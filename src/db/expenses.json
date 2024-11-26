@@ -1,18 +1,578 @@
 [
   {
-    "id": "d1886c42-e5db-4341-a71e-9a61c55ddd64",
-    "amount": "182",
-    "store": "kisko laburo",
+    "id": "1ce4fda4-655a-4a4c-a3a4-4bfde44f6c2f",
+    "amount": "359",
+    "store": "super el tio",
     "paymentType": "debit",
-    "date": "2024-11-06T03:00:00.000Z",
+    "date": "2024-11-02",
     "category": "Comida"
   },
   {
-    "id": "adb5028b-6e0e-43e7-b9c8-e284d66a074f",
-    "amount": "74",
+    "id": "5c3da441-2bfd-4521-829f-385d918f189a",
+    "amount": "427",
+    "store": "barrio judios",
+    "paymentType": "debit",
+    "date": "2024-11-02",
+    "category": "Entretenimiento"
+  },
+  {
+    "id": "dce9b18a-36e1-4a71-91da-75e7c9e08737",
+    "amount": "578",
+    "store": "frog",
+    "paymentType": "debit",
+    "date": "2024-11-03",
+    "category": "Comida"
+  },
+  {
+    "id": "9b578685-cef6-4790-bb0a-d166f08f560c",
+    "amount": "155",
     "store": "super el tio",
     "paymentType": "debit",
+    "date": "2024-11-05",
+    "category": "Comida"
+  },
+  {
+    "id": "d52d6af8-bcf4-4ce3-bdf6-888a2842a901",
+    "amount": "64",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-04",
+    "category": "Comida"
+  },
+  {
+    "id": "9bbbc67c-cf88-4323-9ee2-435a22d7701b",
+    "amount": "185",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-03",
+    "category": "Comida"
+  },
+  {
+    "id": "8027e2ca-36a0-4419-9ed8-c0801cac18fb",
+    "amount": "197",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-11-02",
+    "category": "Comida"
+  },
+  {
+    "id": "b754aa35-bbe0-49dd-a610-6bdd87d0809a",
+    "amount": "50",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Comida"
+  },
+  {
+    "id": "c33e4e2b-2c4a-485d-8bfe-5bbf1212b827",
+    "amount": "2694",
+    "store": "ta-ta",
+    "paymentType": "debit",
+    "date": "2024-11-06",
+    "category": "Comida"
+  },
+  {
+    "id": "63e82196-de9f-4d2e-b1c6-27374f841fec",
+    "amount": "162",
+    "store": "carinceria a la vuelta de casa",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Comida"
+  },
+  {
+    "id": "98eb6a74-ac61-4fe5-b28d-92a9d38eac9c",
+    "amount": "199",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-11-08",
+    "category": "Comida"
+  },
+  {
+    "id": "1654ec04-e700-4c17-953c-eb00dd29a819",
+    "amount": "395",
+    "store": "farmacia medica uruguaya",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Salud"
+  },
+  {
+    "id": "a8aee848-aa13-457e-9ea6-44fbbb810029",
+    "amount": "123",
+    "store": "puesto fyv carniceria a la vuelta de casa",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Comida"
+  },
+  {
+    "id": "5e2a6d16-e6c6-4c07-b1a4-926083061e65",
+    "amount": "260",
+    "store": "panaderia monte caseros",
+    "paymentType": "debit",
+    "date": "2024-11-09",
+    "category": "Comida"
+  },
+  {
+    "id": "92e55ff9-2e48-464b-b381-34b711687e9c",
+    "amount": "98",
+    "store": "4A a montevideo",
+    "paymentType": "cash",
+    "date": "2024-11-10",
+    "category": "Transporte"
+  },
+  {
+    "id": "7bc7d033-cdde-46be-9919-db264cd87813",
+    "amount": "15000",
+    "store": "tio jorge y mama",
+    "paymentType": "debit",
     "date": "2024-11-07",
+    "category": "Otros"
+  },
+  {
+    "id": "72e59d16-9493-4ab6-9862-0a099f7b6688",
+    "amount": "510",
+    "store": "Bar 18",
+    "paymentType": "debit",
+    "date": "2024-11-17",
+    "category": "Comida"
+  },
+  {
+    "id": "0fa30f0e-4a4c-441d-8823-9c8ca5bd7193",
+    "amount": "65",
+    "store": "axion las piedras",
+    "paymentType": "debit",
+    "date": "2024-11-10",
+    "category": "Comida"
+  },
+  {
+    "id": "ae6d1e7c-4d0f-4a70-ba38-64ce0870dcda",
+    "amount": "130",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-08",
+    "category": "Comida"
+  },
+  {
+    "id": "4ba74f93-6191-49fc-82d3-d0ec64690dd2",
+    "amount": "58",
+    "store": "175 Las Piedras",
+    "paymentType": "cash",
+    "date": "2024-11-09",
+    "category": "Transporte"
+  },
+  {
+    "id": "07a91d68-553c-4357-9b40-ada01c39f610",
+    "amount": "11334",
+    "store": "pago tarjeta credito",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Otros"
+  },
+  {
+    "id": "3b86cf8a-8b2a-4a02-8488-db7f9dd7601b",
+    "amount": "185",
+    "store": "ahorro mas",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Otros"
+  },
+  {
+    "id": "5af732aa-f8be-4c7a-a86c-4d3985343164",
+    "amount": "299",
+    "store": "el vencedor fernandez crespo",
+    "paymentType": "debit",
+    "date": "2024-11-11",
+    "category": "Comida"
+  },
+  {
+    "id": "c893bf31-711b-4745-8233-3afad78c5d32",
+    "amount": "140",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-11-12",
+    "category": "Comida"
+  },
+  {
+    "id": "3de7bf7b-8100-46f5-b5a6-899397d95a16",
+    "amount": "182",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-11-12",
+    "category": "Comida"
+  },
+  {
+    "id": "8725d4a1-e203-4085-bcf5-c409646e6ee3",
+    "amount": "272",
+    "store": "Disco 8 de octubre y garibaldi",
+    "paymentType": "debit",
+    "date": "2024-11-12",
+    "category": "Comida"
+  },
+  {
+    "id": "77e97bf0-1edd-48c6-ae15-069780ad69a6",
+    "amount": "108",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-13",
+    "category": "Comida"
+  },
+  {
+    "id": "26ed4150-a5b4-4aaf-9f46-3273e66f5078",
+    "amount": "120",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-13",
+    "category": "Comida"
+  },
+  {
+    "id": "b47a8d4d-178e-4ff0-8c78-0e78d123f03e",
+    "amount": "413",
+    "store": "carinceria a la vuelta de casa",
+    "paymentType": "debit",
+    "date": "2024-11-13",
+    "category": "Comida"
+  },
+  {
+    "id": "0b0f83f1-88ad-4009-a892-f2c3a52504e4",
+    "amount": "56",
+    "store": "175 Las Piedras",
+    "paymentType": "cash",
+    "date": "2024-11-09",
+    "category": "Transporte"
+  },
+  {
+    "id": "48f3292f-ad20-422d-aa5f-33889044352e",
+    "amount": "79",
+    "store": "700 El Pinar",
+    "paymentType": "cash",
+    "date": "2024-11-13",
+    "category": "Transporte"
+  },
+  {
+    "id": "d13f216f-24d6-431c-952f-5ed16342ff72",
+    "amount": "147",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-07",
+    "category": "Comida"
+  },
+  {
+    "id": "68802845-d570-4b4c-8480-0a21a0b4c395",
+    "amount": "59",
+    "store": "kisoko random",
+    "paymentType": "debit",
+    "date": "2024-11-13",
+    "category": "Comida"
+  },
+  {
+    "id": "cc555c62-4162-4b70-a710-f25c49490613",
+    "amount": "79",
+    "store": "7E8R Montevideo",
+    "paymentType": "cash",
+    "date": "2024-11-13",
+    "category": "Transporte"
+  },
+  {
+    "id": "d5879d7f-2ff0-4d0e-96bc-bd98d58c6b0e",
+    "amount": "54",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-14",
+    "category": "Comida"
+  },
+  {
+    "id": "d2c2a1da-cd96-4d4b-99dc-b45f10277d27",
+    "amount": "338",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-11-14",
+    "category": "Comida"
+  },
+  {
+    "id": "6120e129-3d6b-4211-8867-c3ca0de1bb1b",
+    "amount": "126",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-15",
+    "category": "Comida"
+  },
+  {
+    "id": "983a514c-89bb-47df-868b-4b3dc47437ca",
+    "amount": "202",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-11-15",
+    "category": "Comida"
+  },
+  {
+    "id": "493a8734-4f74-4d02-b50f-38ee52e45580",
+    "amount": "1000",
+    "store": "ancap el mastil",
+    "paymentType": "debit",
+    "date": "2024-11-16",
+    "category": "Transporte"
+  },
+  {
+    "id": "a58a87b9-b76b-4bc7-a4d2-cffee3ef34f5",
+    "amount": "56",
+    "store": "175 Las Piedras",
+    "paymentType": "cash",
+    "date": "2024-11-15",
+    "category": "Transporte"
+  },
+  {
+    "id": "a1a15795-f533-46c4-9307-bf1d86f9c2d9",
+    "amount": "140",
+    "store": "axion las piedras",
+    "paymentType": "debit",
+    "date": "2024-11-15",
+    "category": "Otros"
+  },
+  {
+    "id": "82973105-cc92-4939-a599-2ca927218cd9",
+    "amount": "103",
+    "store": "kisko 1ero de mayo",
+    "paymentType": "debit",
+    "date": "2024-11-15",
+    "category": "Comida"
+  },
+  {
+    "id": "a672f42c-0f80-41c9-a8d4-69cdc454c850",
+    "amount": "269",
+    "store": "fresh market punta carretas",
+    "paymentType": "debit",
+    "date": "2024-11-16",
+    "category": "Comida"
+  },
+  {
+    "id": "7b66acd9-f000-4a28-ac6f-f9febc3f5369",
+    "amount": "91",
+    "store": "ancap punta carretas",
+    "paymentType": "debit",
+    "date": "2024-11-16",
+    "category": "Comida"
+  },
+  {
+    "id": "61066676-1226-4922-b158-bdd3a6fa5369",
+    "amount": "402",
+    "store": "super e barato",
+    "paymentType": "credit",
+    "date": "2024-11-16",
+    "category": "Comida"
+  },
+  {
+    "id": "307518c8-e404-49bc-92e8-ba7d852ea819",
+    "amount": "40",
+    "store": "ancap punta carretas",
+    "paymentType": "cash",
+    "date": "2024-11-17",
+    "category": "Otros"
+  },
+  {
+    "id": "288c585c-0efd-48bc-bd4c-be07a47875f8",
+    "amount": "96",
+    "store": "kisko laburo",
+    "paymentType": "cash",
+    "date": "2024-11-19",
+    "category": "Comida"
+  },
+  {
+    "id": "8e5d7098-71ad-426c-8b60-431799b3ec01",
+    "amount": "200",
+    "store": "porro del luis",
+    "paymentType": "cash",
+    "date": "2024-11-19",
+    "category": "Otros"
+  },
+  {
+    "id": "dd98dff4-ded8-4ac8-a830-1f4598c0de83",
+    "amount": "182",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-11-17",
+    "category": "Comida"
+  },
+  {
+    "id": "796901f8-317a-4b11-9364-bb50e1de743a",
+    "amount": "500",
+    "store": "ancap rambla",
+    "paymentType": "debit",
+    "date": "2024-11-17",
+    "category": "Transporte"
+  },
+  {
+    "id": "514f0b14-663a-4724-9ce7-34b46123b015",
+    "amount": "98",
+    "store": "230 Montevideo",
+    "paymentType": "cash",
+    "date": "2024-11-17",
+    "category": "Transporte"
+  },
+  {
+    "id": "2515eef4-515e-474a-82c6-ae215f9ba17b",
+    "amount": "98",
+    "store": "230 Montevideo",
+    "paymentType": "cash",
+    "date": "2024-11-17",
+    "category": "Transporte"
+  },
+  {
+    "id": "c4cd6264-9ba4-41e1-9c9e-94d1a18585f3",
+    "amount": "538",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2024-11-19",
+    "category": "Comida"
+  },
+  {
+    "id": "28810585-e911-49fc-8030-71eb67337faf",
+    "amount": "269",
+    "store": "super el tio",
+    "paymentType": "cash",
+    "date": "2024-11-19",
+    "category": "Comida"
+  },
+  {
+    "id": "2d4f298a-59d7-4795-a408-07d1183d1d71",
+    "amount": "165",
+    "store": "Disco 8 de octubre y garibaldi",
+    "paymentType": "credit",
+    "date": "2024-11-20",
+    "category": "Comida"
+  },
+  {
+    "id": "b185ab02-fa6f-4d94-8aac-a0a2553a39e1",
+    "amount": "93",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-11-18",
+    "category": "Comida"
+  },
+  {
+    "id": "dd809063-82aa-488b-b573-865a95c2108c",
+    "amount": "521",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-11-18",
+    "category": "Higiene"
+  },
+  {
+    "id": "b4844889-08dc-47be-be7d-901826be0b8f",
+    "amount": "254",
+    "store": "tabaquismo medica",
+    "paymentType": "credit",
+    "date": "2024-11-21",
+    "category": "Salud"
+  },
+  {
+    "id": "c01adfc0-e0fe-425a-9e34-17dd1eb7303f",
+    "amount": "55",
+    "store": "super el tio",
+    "paymentType": "cash",
+    "date": "2024-11-21",
+    "category": "Comida"
+  },
+  {
+    "id": "80400c1d-dadb-4647-b0d7-fc49e2da68d8",
+    "amount": "145",
+    "store": "24hs cerca de casa",
+    "paymentType": "credit",
+    "date": "2024-11-22",
+    "category": "Comida"
+  },
+  {
+    "id": "f81f30b3-0e83-4c33-99e9-a49b45341093",
+    "amount": "190",
+    "store": "tienda inglesa garibaldi",
+    "paymentType": "credit",
+    "date": "2024-11-22",
+    "category": "Comida"
+  },
+  {
+    "id": "983aa38b-16a5-43b8-9580-5d8acd346445",
+    "amount": "142",
+    "store": "frog defensa",
+    "paymentType": "credit",
+    "date": "2024-11-24",
+    "category": "Comida"
+  },
+  {
+    "id": "3498cf80-819f-461b-b634-4070aa64e40d",
+    "amount": "196",
+    "store": "230 Montevideo",
+    "paymentType": "cash",
+    "date": "2024-11-24",
+    "category": "Transporte"
+  },
+  {
+    "id": "4a8020ad-1c2e-47f1-bbea-3ca5f2a543dd",
+    "amount": "196",
+    "store": "4A Las Piedras",
+    "paymentType": "cash",
+    "date": "2024-11-23",
+    "category": "Transporte"
+  },
+  {
+    "id": "d7485c9b-fa1d-4be8-811b-baaa714f1f2a",
+    "amount": "942",
+    "store": "devoto las piedras",
+    "paymentType": "credit",
+    "date": "2024-11-24",
+    "category": "Comida"
+  },
+  {
+    "id": "0c4311a5-caea-4ea2-83c0-042fc1e05734",
+    "amount": "500",
+    "store": "retiro cajero",
+    "paymentType": "credit",
+    "date": "2024-11-24",
+    "category": "Otros"
+  },
+  {
+    "id": "b0c934f6-2288-44d0-aeaa-ee017b0f8c82",
+    "amount": "174",
+    "store": "panaderia la curva",
+    "paymentType": "credit",
+    "date": "2024-11-24",
+    "category": "Comida"
+  },
+  {
+    "id": "b92e2008-01c3-4285-b9b2-9c92fe3af337",
+    "amount": "340",
+    "store": "kinko las piedras",
+    "paymentType": "credit",
+    "date": "2024-11-23",
+    "category": "Comida"
+  },
+  {
+    "id": "c4c8c2d9-efe7-418b-90d8-f55e21b275cc",
+    "amount": "221",
+    "store": "devoto las piedras",
+    "paymentType": "credit",
+    "date": "2024-11-24",
+    "category": "Comida"
+  },
+  {
+    "id": "953a8801-908c-4195-8e40-ee101af5d285",
+    "amount": "840",
+    "store": "antel",
+    "paymentType": "credit",
+    "date": "2024-11-25",
+    "category": "Otros"
+  },
+  {
+    "id": "d501c9a4-0a00-476a-8b1d-e4177d1f3ef7",
+    "amount": "244",
+    "store": "no se",
+    "paymentType": "credit",
+    "date": "2024-11-23",
+    "category": "Comida"
+  },
+  {
+    "id": "5058360e-2722-43fa-9f43-199d2793f4a3",
+    "amount": "40",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-11-25",
     "category": "Comida"
   }
 ]
