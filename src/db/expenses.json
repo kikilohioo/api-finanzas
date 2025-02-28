@@ -574,5 +574,933 @@
     "paymentType": "credit",
     "date": "2024-11-25",
     "category": "Comida"
+  },
+  {
+    "id": "ad638809-ac05-4cae-8880-acd539d0b779",
+    "amount": "371",
+    "store": "farmacia el tunel",
+    "paymentType": "credit",
+    "date": "2024-11-25",
+    "category": "Salud"
+  },
+  {
+    "id": "12647154-5607-415a-917b-84a03ebe09b9",
+    "amount": "413",
+    "store": "pedidos ya",
+    "paymentType": "credit",
+    "date": "2024-11-25",
+    "category": "Comida"
+  },
+  {
+    "id": "43b27f3b-64dd-4fa7-b0fc-187bd33694b1",
+    "amount": "475",
+    "store": "cifer garibaldi",
+    "paymentType": "credit",
+    "date": "2024-11-26",
+    "category": "Hogar"
+  },
+  {
+    "id": "bdc8ee25-ddf2-49f4-b401-c1d177ae21de",
+    "amount": "3529",
+    "store": "antel",
+    "paymentType": "cash",
+    "date": "2024-11-26",
+    "category": "Hogar"
+  },
+  {
+    "id": "c535b8e1-1d98-448f-bf7e-41223808be44",
+    "amount": "5000",
+    "store": "retiro cajero credito",
+    "paymentType": "credit",
+    "date": "2024-11-26",
+    "category": "Hogar"
+  },
+  {
+    "id": "5f5a8f09-fbb1-4364-bca2-f0e5b1ec64ed",
+    "amount": "110",
+    "store": "granja nueva palmira",
+    "paymentType": "credit",
+    "date": "2024-11-26",
+    "category": "Comida"
+  },
+  {
+    "id": "6371feea-6b42-4b33-a727-f5eb64b9928b",
+    "amount": "405",
+    "store": "tata 3x",
+    "paymentType": "credit",
+    "date": "2024-11-26",
+    "category": "Comida"
+  },
+  {
+    "id": "6a380fac-0487-49f5-8884-957d570432dd",
+    "amount": "41",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-11-27",
+    "category": "Comida"
+  },
+  {
+    "id": "bff3500c-0d43-4706-98c6-3a12d5766833",
+    "amount": "169",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-11-28",
+    "category": "Comida"
+  },
+  {
+    "id": "c8b643f2-f2d6-4129-9bd9-3ce4b30e21b2",
+    "amount": "544",
+    "store": "tata 3x",
+    "paymentType": "credit",
+    "date": "2024-11-27",
+    "category": "Comida"
+  },
+  {
+    "id": "d967a765-24bc-4f5d-99eb-d252692c0548",
+    "amount": "202",
+    "store": "Disco 8 de octubre y garibaldi",
+    "paymentType": "credit",
+    "date": "2024-11-29",
+    "category": "Comida"
+  },
+  {
+    "id": "dc2c071d-f5a4-42de-a8b3-9d6e937b10a2",
+    "amount": "261",
+    "store": "panaderia amezaga",
+    "paymentType": "debit",
+    "date": "2024-12-01",
+    "category": "Comida"
+  },
+  {
+    "id": "c7a18467-1127-4871-a878-94f003a7a131",
+    "amount": "200",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2024-12-01",
+    "category": "Comida"
+  },
+  {
+    "id": "2f53bddf-5be7-4a9c-b498-8013c95a338e",
+    "amount": "214",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-12-29",
+    "category": "Comida"
+  },
+  {
+    "id": "5e24bc29-279d-4d17-9dbf-483da3218054",
+    "amount": "414",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2024-12-01",
+    "category": "Comida"
+  },
+  {
+    "id": "93d3bd2b-a456-49a9-ad29-495fd4aa3d68",
+    "amount": "254",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2024-12-01",
+    "category": "Comida"
+  },
+  {
+    "id": "6f1c7942-c383-4ad1-b507-0697a62b2736",
+    "amount": "998",
+    "store": "mcdonalds 3x",
+    "paymentType": "credit",
+    "date": "2024-12-30",
+    "category": "Comida"
+  },
+  {
+    "id": "3c6a5dcc-1eff-43c3-aea4-b4c1c61cf4fb",
+    "amount": "231",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-12-02",
+    "category": "Comida"
+  },
+  {
+    "id": "d51f4317-4288-4a7b-8125-57d1c3ef2f42",
+    "amount": "145",
+    "store": "axion justicia",
+    "paymentType": "credit",
+    "date": "2024-12-02",
+    "category": "Comida"
+  },
+  {
+    "id": "d0a6b45f-e41f-4aab-b5f3-f4e1c6d7390e",
+    "amount": "360",
+    "store": "feria",
+    "paymentType": "debit",
+    "date": "2024-12-08",
+    "category": "Comida"
+  },
+  {
+    "id": "e7f512d2-6f75-4072-901e-b28ca58bdee6",
+    "amount": "610",
+    "store": "feria queso",
+    "paymentType": "debit",
+    "date": "2024-12-08",
+    "category": "Comida"
+  },
+  {
+    "id": "8cd56a85-a95a-4297-84e8-411f6f3e90cd",
+    "amount": "185",
+    "store": "24hs cerca de casa",
+    "paymentType": "credit",
+    "date": "2024-12-03",
+    "category": "Comida"
+  },
+  {
+    "id": "89a76bc7-f99a-4001-879d-31cdfa48cc34",
+    "amount": "904",
+    "store": "feria otros",
+    "paymentType": "debit",
+    "date": "2024-12-08",
+    "category": "Comida"
+  },
+  {
+    "id": "f5503c2c-334c-47de-931f-cf3d81d9e7bf",
+    "amount": "64",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-12-04",
+    "category": "Comida"
+  },
+  {
+    "id": "4c4d787f-0f6c-419f-bd83-94f7d67caa5f",
+    "amount": "250",
+    "store": "sociedad cultural villa dolores",
+    "paymentType": "debit",
+    "date": "2024-12-05",
+    "category": "Comida"
+  },
+  {
+    "id": "90a961c0-af11-4d2a-8d2d-0f378eefe116",
+    "amount": "137",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-12-05",
+    "category": "Comida"
+  },
+  {
+    "id": "8d2c9f2c-c71d-40f6-9464-c6e477b41313",
+    "amount": "210",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-12-06",
+    "category": "Comida"
+  },
+  {
+    "id": "fcf5ee53-b275-4b36-8d23-3ff827af5df0",
+    "amount": "120",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-12-03",
+    "category": "Comida"
+  },
+  {
+    "id": "a8f32996-c328-4629-8920-71c7ad55ba1c",
+    "amount": "196",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-12-06",
+    "category": "Comida"
+  },
+  {
+    "id": "a3cc5c91-1720-46ac-8bc3-920f7252b9a0",
+    "amount": "98",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-12-06",
+    "category": "Comida"
+  },
+  {
+    "id": "07f58fa8-9ac8-4528-8a25-11df0eeb6f3a",
+    "amount": "112",
+    "store": "526 Cjo. America",
+    "paymentType": "cash",
+    "date": "2024-12-05",
+    "category": "Transporte"
+  },
+  {
+    "id": "55fa5783-f90e-4a80-8e73-d3cc22306a82",
+    "amount": "56",
+    "store": "188 ciudadela",
+    "paymentType": "cash",
+    "date": "2024-12-05",
+    "category": "Transporte"
+  },
+  {
+    "id": "d3d3df65-1c22-43c9-a3cb-dc1a2b44d8e7",
+    "amount": "176",
+    "store": "axion las piedras",
+    "paymentType": "debit",
+    "date": "2024-12-05",
+    "category": "Comida"
+  },
+  {
+    "id": "d8aa53f0-fe9c-4211-9ac2-09a68c4a9681",
+    "amount": "358",
+    "store": "ahorro mas",
+    "paymentType": "debit",
+    "date": "2024-12-06",
+    "category": "Comida"
+  },
+  {
+    "id": "8ca98b18-22eb-42e7-9d32-bb7c41cff27c",
+    "amount": "364",
+    "store": "ahorro mas",
+    "paymentType": "debit",
+    "date": "2024-12-06",
+    "category": "Comida"
+  },
+  {
+    "id": "c249ce13-6b93-4703-a3e5-ca7225f13d6d",
+    "amount": "280",
+    "store": "granja nueva palmira",
+    "paymentType": "debit",
+    "date": "2024-12-07",
+    "category": "Comida"
+  },
+  {
+    "id": "70368820-2bb8-4835-9995-1593a5b8eb2b",
+    "amount": "250",
+    "store": "panaderia amezaga",
+    "paymentType": "debit",
+    "date": "2024-12-07",
+    "category": "Comida"
+  },
+  {
+    "id": "c9c94a67-0cc8-4665-a775-797c61e1140e",
+    "amount": "204",
+    "store": "4d las piedras",
+    "paymentType": "cash",
+    "date": "2024-12-07",
+    "category": "Transporte"
+  },
+  {
+    "id": "8531b172-023a-4c4a-b240-461bd8788969",
+    "amount": "204",
+    "store": "809 montevideo",
+    "paymentType": "cash",
+    "date": "2024-12-07",
+    "category": "Transporte"
+  },
+  {
+    "id": "81efc600-97f1-4010-8789-0aa6a5d03c5b",
+    "amount": "321",
+    "store": "taxi",
+    "paymentType": "debit",
+    "date": "2024-12-05",
+    "category": "Transporte"
+  },
+  {
+    "id": "4bdc6499-4c2e-4609-91d6-58c8fb3e22ba",
+    "amount": "387",
+    "store": "24hs cerca de casa",
+    "paymentType": "credit",
+    "date": "2024-12-02",
+    "category": "Comida"
+  },
+  {
+    "id": "cc8e16c0-8349-4382-8278-c7d8346da9d9",
+    "amount": "68",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-12-11",
+    "category": "Comida"
+  },
+  {
+    "id": "64072045-7289-4fa8-a0b6-350aecf704ef",
+    "amount": "260",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-12-12",
+    "category": "Comida"
+  },
+  {
+    "id": "690b50e8-7f7e-4ba9-b5cb-39f0ce7abf00",
+    "amount": "257",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-12-13",
+    "category": "Comida"
+  },
+  {
+    "id": "76f5c35a-824a-4b19-b20b-aaf767db7894",
+    "amount": "175",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-12-13",
+    "category": "Comida"
+  },
+  {
+    "id": "f224c559-30d7-48b3-bf8e-669ea7968e90",
+    "amount": "251",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-12-12",
+    "category": "Comida"
+  },
+  {
+    "id": "9983b8ca-0a5a-4288-8503-9617fa9239fa",
+    "amount": "700",
+    "store": "pizzeria cilantro",
+    "paymentType": "cash",
+    "date": "2024-12-12",
+    "category": "Comida"
+  },
+  {
+    "id": "5e7a9a46-4a14-4b87-97fa-a137e39835f6",
+    "amount": "254",
+    "store": "tabaquismo medica",
+    "paymentType": "credit",
+    "date": "2024-12-12",
+    "category": "Salud"
+  },
+  {
+    "id": "2c0ff6df-c9eb-418f-89a1-8c6d2904c4ed",
+    "amount": "540",
+    "store": "pedidos ya",
+    "paymentType": "credit",
+    "date": "2024-12-09",
+    "category": "Comida"
+  },
+  {
+    "id": "879c6fa6-fee1-4903-b745-3dd9987c80e4",
+    "amount": "177",
+    "store": "el mago",
+    "paymentType": "debit",
+    "date": "2024-12-10",
+    "category": "Comida"
+  },
+  {
+    "id": "f500cebf-cdde-44d8-b4f2-7b1f8d1dd8d5",
+    "amount": "1300",
+    "store": "sonrie brackets",
+    "paymentType": "debit",
+    "date": "2024-12-11",
+    "category": "Salud"
+  },
+  {
+    "id": "199b159d-876f-4c58-a18a-183977d116b9",
+    "amount": "144",
+    "store": "taxi",
+    "paymentType": "debit",
+    "date": "2024-12-09",
+    "category": "Transporte"
+  },
+  {
+    "id": "e81fc7f3-6dd4-44ab-abf7-a1544adf18fa",
+    "amount": "440",
+    "store": "super parque rodo",
+    "paymentType": "debit",
+    "date": "2024-12-08",
+    "category": "Comida"
+  },
+  {
+    "id": "95762295-d83f-4186-94fb-447c3710b75b",
+    "amount": "140",
+    "store": "disco fernandez crespo",
+    "paymentType": "cash",
+    "date": "2024-12-13",
+    "category": "Otros"
+  },
+  {
+    "id": "02adf682-059c-4560-95fd-b0ae2799529e",
+    "amount": "15000",
+    "store": "tio jorge y mama",
+    "paymentType": "debit",
+    "date": "2024-12-10",
+    "category": "Otros"
+  },
+  {
+    "id": "02adf682-059c-4560-83er-b0ae2799529e",
+    "amount": 6640,
+    "store": "pago tarjeta de credito",
+    "paymentType": "debit",
+    "date": "2024-12-11",
+    "category": "Otros"
+  },
+  {
+    "id": "cc80391a-2671-4ce6-aeec-169e91da37d3",
+    "amount": "197",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2024-12-16",
+    "category": "Comida"
+  },
+  {
+    "id": "88a206f8-87bb-4fd2-959f-d635146b5fc4",
+    "amount": "689",
+    "store": "pedidos ya",
+    "paymentType": "credit",
+    "date": "2024-12-16",
+    "category": "Comida"
+  },
+  {
+    "id": "6d605163-2238-4446-b1be-722da2d2acbe",
+    "amount": "301",
+    "store": "el vencedor fernandez crespo",
+    "paymentType": "credit",
+    "date": "2024-12-15",
+    "category": "Comida"
+  },
+  {
+    "id": "9f50a340-3bad-41f8-be36-49f7967b471d",
+    "amount": "381",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2024-12-15",
+    "category": "Comida"
+  },
+  {
+    "id": "726622ee-2160-4009-919c-b876eb2bcfc8",
+    "amount": "77",
+    "store": "panaderia frente a frigo las piedras",
+    "paymentType": "debit",
+    "date": "2024-12-19",
+    "category": "Comida"
+  },
+  {
+    "id": "f18ecbe3-4ee2-41be-b315-3fe4c69d58af",
+    "amount": "320",
+    "store": "24hs cerca de casa",
+    "paymentType": "credit",
+    "date": "2024-12-20",
+    "category": "Comida"
+  },
+  {
+    "id": "be98a1ff-3a2a-494f-a733-3818f2e15daf",
+    "amount": "283",
+    "store": "farmacia parada pau",
+    "paymentType": "credit",
+    "date": "2024-12-17",
+    "category": "Salud"
+  },
+  {
+    "id": "0bb3a250-c830-4253-9a03-6b85626138d7",
+    "amount": "81",
+    "store": "super el tio",
+    "paymentType": "cash",
+    "date": "2024-12-17",
+    "category": "Comida"
+  },
+  {
+    "id": "80eb89a6-5642-478a-9155-af1977b43818",
+    "amount": "674",
+    "store": "frigo las piedras",
+    "paymentType": "cash",
+    "date": "2024-12-17",
+    "category": "Comida"
+  },
+  {
+    "id": "1944d64a-1265-4b3d-b711-717076bd8ac4",
+    "amount": "500",
+    "store": "retiro cajero credito",
+    "paymentType": "credit",
+    "date": "2024-12-16",
+    "category": "Otros"
+  },
+  {
+    "id": "d119d5ed-021f-4cf4-ab83-d1cc691d46f5",
+    "amount": "250",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-12-16",
+    "category": "Comida"
+  },
+  {
+    "id": "1ac931b3-b539-4c9c-8dfe-36c8b80ac600",
+    "amount": "137",
+    "store": "taxi",
+    "paymentType": "credit",
+    "date": "2024-12-17",
+    "category": "Transporte"
+  },
+  {
+    "id": "b079573b-2184-4999-998b-84a756e1a2aa",
+    "amount": "3907",
+    "store": "tata 3x",
+    "paymentType": "credit",
+    "date": "2024-12-17",
+    "category": "Comida"
+  },
+  {
+    "id": "fa8736d7-ee4c-4cff-8337-7c01a00cc4c6",
+    "amount": "500",
+    "store": "retiro cajero credito",
+    "paymentType": "credit",
+    "date": "2024-12-16",
+    "category": "Otros"
+  },
+  {
+    "id": "02adf682-059c-556-95fd-b0ae2799529e",
+    "amount": 10000,
+    "store": "pago tarjeta de credito",
+    "paymentType": "debit",
+    "date": "2024-12-22",
+    "category": "Otros"
+  },
+  {
+    "id": "c9a85d1e-b7d3-4abe-8b3b-156a9af9867a",
+    "amount": "493",
+    "store": "devoto arenal grande",
+    "paymentType": "debit",
+    "date": "2024-12-09",
+    "category": "Hogar"
+  },
+  {
+    "id": "4fc99948-b193-40bb-b37d-b7a30ebbe97b",
+    "amount": "37",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-12-09",
+    "category": "Comida"
+  },
+  {
+    "id": "b4bda650-1776-4238-8193-1b8dc2ca96b2",
+    "amount": "1160",
+    "store": "riogas",
+    "paymentType": "debit",
+    "date": "2024-12-22",
+    "category": "Hogar"
+  },
+  {
+    "id": "d77daac2-baac-41b0-8437-c4bf1d92fa6c",
+    "amount": "700",
+    "store": "Bar 18",
+    "paymentType": "debit",
+    "date": "2024-12-21",
+    "category": "Comida"
+  },
+  {
+    "id": "76fb4cd4-f32b-4d69-8f94-d7d969502b91",
+    "amount": "619",
+    "store": "farmacia parada pau",
+    "paymentType": "debit",
+    "date": "2024-12-20",
+    "category": "Salud"
+  },
+  {
+    "id": "3daba4ae-10cb-466e-9d04-51491d9d6b65",
+    "amount": "123",
+    "store": "24hs random",
+    "paymentType": "debit",
+    "date": "2024-12-20",
+    "category": "Comida"
+  },
+  {
+    "id": "f72d7959-31db-47c5-802e-6767bb372c65",
+    "amount": "118",
+    "store": "granja nueva palmira",
+    "paymentType": "debit",
+    "date": "2024-12-20",
+    "category": "Comida"
+  },
+  {
+    "id": "d742c001-7e31-4eb1-9d86-3a41a17fdd8e",
+    "amount": "138",
+    "store": "kisko laburo",
+    "paymentType": "debit",
+    "date": "2024-12-20",
+    "category": "Comida"
+  },
+  {
+    "id": "9c9562fd-cce5-4e1c-8974-2f6e0390c6f2",
+    "amount": "199",
+    "store": "super el tio",
+    "paymentType": "debit",
+    "date": "2024-12-20",
+    "category": "Comida"
+  },
+  {
+    "id": "93dee7eb-51ee-4ff4-92d3-ddbb9dacfc47",
+    "amount": "202",
+    "store": "carinceria a la vuelta de casa",
+    "paymentType": "debit",
+    "date": "2024-12-22",
+    "category": "Comida"
+  },
+  {
+    "id": "9c3fd903-4cb4-47ed-b96a-f3a8cacc7d89",
+    "amount": "574",
+    "store": "ahorro mas",
+    "paymentType": "debit",
+    "date": "2024-12-22",
+    "category": "Comida"
+  },
+  {
+    "id": "2cea4988-d7f2-4c25-a7ab-efd18b2d852f",
+    "amount": 11240,
+    "store": "pago tarjeta de credito",
+    "paymentType": "debit",
+    "date": "2025-01-09",
+    "category": "Otros"
+  },
+  {
+    "id": "537ed84f-7f42-45bf-b445-214cb101de99",
+    "amount": "964",
+    "store": "ferro baso",
+    "paymentType": "debit",
+    "date": "2025-01-05",
+    "category": "Otros"
+  },
+  {
+    "id": "50e652ea-f2ff-4558-9d7c-4a63f97721c6",
+    "amount": "784",
+    "store": "mcdonalds 3x",
+    "paymentType": "credit",
+    "date": "2024-12-27",
+    "category": "Comida"
+  },
+  {
+    "id": "b3b83bb7-920e-48a4-bcce-a3169b5a1e7a",
+    "amount": "102",
+    "store": "230 las piedras",
+    "paymentType": "cash",
+    "date": "2024-12-21",
+    "category": "Transporte"
+  },
+  {
+    "id": "6a3bd8fd-e514-4c8c-9738-1b8a568b1327",
+    "amount": "893",
+    "store": "terhan",
+    "paymentType": "debit",
+    "date": "2025-01-06",
+    "category": "Otros"
+  },
+  {
+    "id": "fceb9b88-42c2-45ca-a106-e50ba0ceed07",
+    "amount": "193",
+    "store": "carniceria hoquart",
+    "paymentType": "debit",
+    "date": "2025-01-03",
+    "category": "Comida"
+  },
+  {
+    "id": "c7e2faa7-6ba4-46eb-babb-15733357b6a8",
+    "amount": "767",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-12-28",
+    "category": "Comida"
+  },
+  {
+    "id": "49add4b3-4ebf-485e-889a-b3265c217936",
+    "amount": "582",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2025-01-06",
+    "category": "Comida"
+  },
+  {
+    "id": "ff79bc94-98a7-4305-bbb9-455b3be0b4bb",
+    "amount": "167",
+    "store": "panaderia random",
+    "paymentType": "debit",
+    "date": "2024-12-27",
+    "category": "Comida"
+  },
+  {
+    "id": "86d72ae2-137e-41ee-bf04-7c2cae34dff8",
+    "amount": "240",
+    "store": "taxi",
+    "paymentType": "debit",
+    "date": "2024-12-27",
+    "category": "Transporte"
+  },
+  {
+    "id": "03136f1c-0340-4777-acef-b7160a743e9d",
+    "amount": "140",
+    "store": "kisko 1 de mayo",
+    "paymentType": "debit",
+    "date": "2024-12-28",
+    "category": "Otros"
+  },
+  {
+    "id": "8c0675f9-3375-4d1b-871f-959c72541ad9",
+    "amount": "79",
+    "store": "ancap",
+    "paymentType": "debit",
+    "date": "2024-12-28",
+    "category": "Comida"
+  },
+  {
+    "id": "6f8e29c7-a0d9-4383-8c47-dde2daf5226c",
+    "amount": "36",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-12-27",
+    "category": "Comida"
+  },
+  {
+    "id": "8033abca-07f5-4f46-9163-839036a41c1b",
+    "amount": "432",
+    "store": "24hs cerca de casa",
+    "paymentType": "debit",
+    "date": "2024-12-25",
+    "category": "Comida"
+  },
+  {
+    "id": "0ba32a56-7fce-4393-9ee4-159cca6be9b0",
+    "amount": "399",
+    "store": "carniceria a la vuelta de casa",
+    "paymentType": "debit",
+    "date": "2024-12-26",
+    "category": "Comida"
+  },
+  {
+    "id": "7bf9617a-95ee-4d1d-abb0-89d445186417",
+    "amount": "86",
+    "store": "super parque rodo",
+    "paymentType": "debit",
+    "date": "2024-12-25",
+    "category": "Higiene"
+  },
+  {
+    "id": "8a8c1516-6131-462e-88d0-6487831c31fa",
+    "amount": "165",
+    "store": "tata 3x",
+    "paymentType": "debit",
+    "date": "2024-12-23",
+    "category": "Comida"
+  },
+  {
+    "id": "44b27bf7-40ce-4132-bd0e-ca02f4f4731b",
+    "amount": "300",
+    "store": "rinconada",
+    "paymentType": "debit",
+    "date": "2024-12-24",
+    "category": "Comida"
+  },
+  {
+    "id": "0b8d3b42-98be-4ac6-aaff-18e61f5a4c0c",
+    "amount": "198",
+    "store": "carniceria a la vuelta de casa",
+    "paymentType": "debit",
+    "date": "2025-01-03",
+    "category": "Comida"
+  },
+  {
+    "id": "9f0efcee-41de-4086-a928-39d6b080fac0",
+    "amount": "495",
+    "store": "Bar 18",
+    "paymentType": "debit",
+    "date": "2025-01-07",
+    "category": "Comida"
+  },
+  {
+    "id": "eb2784e9-f13d-4651-9274-be13c6c38224",
+    "amount": "256",
+    "store": "kiosko random",
+    "paymentType": "debit",
+    "date": "2025-01-06",
+    "category": "Comida"
+  },
+  {
+    "id": "7ad72267-b097-40a4-9e5f-10273151475b",
+    "amount": "1660",
+    "store": "ferreteria random",
+    "paymentType": "debit",
+    "date": "2025-01-03",
+    "category": "Otros"
+  },
+  {
+    "id": "a57071ad-e738-419e-ad69-b74d95bc20f2",
+    "amount": "1406",
+    "store": "devoto arenal grande",
+    "paymentType": "debit",
+    "date": "2025-01-02",
+    "category": "Comida"
+  },
+  {
+    "id": "fbca3d7e-4bab-4231-a5ce-4b61df13940f",
+    "amount": 10126.4,
+    "store": "pago tarjeta de credito",
+    "paymentType": "debit",
+    "date": "2025-02-27",
+    "category": "Otros"
+  },
+  {
+    "id": "098902cd-f9b2-4b9c-90e7-7fdbb54d393f",
+    "amount": "890",
+    "store": "pedidos ya",
+    "paymentType": "credit",
+    "date": "2025-02-25",
+    "category": "Comida"
+  },
+  {
+    "id": "dc99df63-6189-4a4d-a2db-60ebefe25f44",
+    "amount": "991",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2025-02-24",
+    "category": "Comida"
+  },
+  {
+    "id": "94cc0817-2b3d-4e3e-a3cb-901b2486f9dc",
+    "amount": "398",
+    "store": "super el tio",
+    "paymentType": "credit",
+    "date": "2025-02-27",
+    "category": "Comida"
+  },
+  {
+    "id": "453c6dbe-0a7f-4c86-a605-4d1022ab02a3",
+    "amount": "353",
+    "store": "ahorro mas",
+    "paymentType": "credit",
+    "date": "2025-02-26",
+    "category": "Comida"
+  },
+  {
+    "id": "44bf126f-9469-4cd6-a601-158d8335048b",
+    "amount": "2184",
+    "store": "varias",
+    "paymentType": "credit",
+    "date": "2025-02-27",
+    "category": "Otros"
+  },
+  {
+    "id": "9519f22b-fdff-46c8-96bc-47e225030ab0",
+    "amount": "1648",
+    "store": "varias",
+    "paymentType": "credit",
+    "date": "2025-02-27",
+    "category": "Otros"
+  },
+  {
+    "id": "de48de09-6a05-4940-808c-82e07ac2a727",
+    "amount": "898",
+    "store": "jack and jones outlet",
+    "paymentType": "credit",
+    "date": "2025-02-27",
+    "category": "Ropa"
+  },
+  {
+    "id": "5e63a20d-cecb-4bcc-8007-178f00ef1764",
+    "amount": 0,
+    "store": "pago tarjeta de credito",
+    "paymentType": "debit",
+    "date": "2025-02-28",
+    "category": "Otros"
+  },
+  {
+    "id": "14c5d996-2bd4-4456-bfa3-8d4e76c970eb",
+    "amount": "12",
+    "store": "212",
+    "paymentType": "debit",
+    "date": "2025-02-28",
+    "category": "Educación"
+  },
+  {
+    "id": "38536c60-233d-4ad2-b329-0f3dea7c7b6e",
+    "amount": 164,
+    "store": "pago tarjeta de credito",
+    "paymentType": "debit",
+    "date": "2025-02-28",
+    "category": "Otros"
   }
 ]

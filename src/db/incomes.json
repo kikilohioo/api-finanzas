@@ -75,5 +75,54 @@
     "source": "Otros",
     "date": "2024-11-19",
     "description": "devolucion Pau boleto"
+  },
+  {
+    "id": "9edfe47e-13c0-409f-b7ad-2aa7465a669b",
+    "amount": "475",
+    "source": "Otros",
+    "date": "2024-12-02",
+    "description": "devolucion rosina calefon"
+  },
+  {
+    "id": "f07e0c5c-6372-4837-9bff-1349422008b4",
+    "amount": "24964",
+    "source": "Sueldo",
+    "date": "2024-12-05",
+    "description": "Sueldo menos retencion ANDA"
+  },
+  {
+    "id": "a4f09354-b370-4bb0-b9ec-c0f370987e13",
+    "amount": "4922",
+    "source": "Otros",
+    "date": "2024-12-03",
+    "description": "Ajuste La Casona parte de Pau"
+  },
+  {
+    "id": "0243252f-c0c8-4f9e-bd42-3c1e242e3a0b",
+    "amount": "3198",
+    "source": "Otros",
+    "date": "2024-12-05",
+    "description": "Ajuste La Casona parte de Pabol"
+  },
+  {
+    "id": "1de0064a-7ae4-43e5-9e87-8eb10124106b",
+    "amount": "220",
+    "source": "Otros",
+    "date": "2024-12-12",
+    "description": "devolucion mati"
+  },
+  {
+    "id": "4c5ad062-f337-46dc-89b4-88ba27138def",
+    "amount": "28765",
+    "source": "Otros",
+    "date": "2024-12-19",
+    "description": "aguinaldo"
+  },
+  {
+    "id": "8db633b6-6477-4a5e-a5a1-ad632bca7cf4",
+    "amount": "22789",
+    "source": "Otros",
+    "date": "2024-12-23",
+    "description": "salario vacacional 2024 parte 2"
   }
 ]

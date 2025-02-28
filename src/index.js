@@ -7,6 +7,7 @@ const morgan = require('morgan');
 const incomesRouter = require('./routes/incomes');
 const expensesRouter = require('./routes/expenses');
 const alertsRouter = require('./routes/alerts');
+const creditCardRouter = require('./routes/credit-card');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -27,6 +28,7 @@ app.use(express.json());
 app.use('/api/incomes', incomesRouter);
 app.use('/api/expenses', expensesRouter);
 app.use('/api/alerts', alertsRouter);
+app.use('/api/credit-card', creditCardRouter);
 
 // Summary route
 app.get('/api/summary', async (req, res) => {
@@ -41,6 +43,7 @@ app.get('/api/summary', async (req, res) => {
     const start = startDate ? new Date(startDate) : new Date(0);
     const end = endDate ? new Date(endDate) : new Date();
 
+    // resumen gral
     const filteredExpenses = expensesData.filter((item) => {
       const itemDate = new Date(item.date);
       return itemDate >= start && itemDate <= end;
@@ -73,9 +76,35 @@ app.get('/api/summary', async (req, res) => {
       return acc;
     }, {});
 
+    // Filtros de datos específicos para "creditExpenses"
+    const creditExpenses = filteredExpenses.filter((item) => {
+      return item.paymentType === 'credit';
+    });
+
+    // Cálculo de total para "creditExpenses"
+    const totalCreditExpenses = creditExpenses.reduce((acc, item) => acc + parseFloat(item.amount), 0);
+
+    // resumen tarjeta de credito
+    // Fechas para el rango de "creditExpenses" (un mes hacia atrás)
+    const creditStart = new Date(start);
+    creditStart.setMonth(creditStart.getMonth() - 1);
+    const creditEnd = new Date(end);
+    creditEnd.setMonth(creditEnd.getMonth() - 1);
+
+    // Filtros de datos específicos para "creditExpenses"
+    const creditExpensesLastMonth = expensesData.filter((item) => {
+      const itemDate = new Date(item.date);
+      return item.paymentType === 'credit' && itemDate >= creditStart && itemDate <= creditEnd;
+    });
+
+    // Cálculo de total para "creditExpenses"
+    const totalCreditExpensesLastMonth = creditExpensesLastMonth.reduce((acc, item) => acc + parseFloat(item.amount), 0);
+
     res.json({
       totalExpenses,
       totalIncomes,
+      totalCreditExpensesLastMonth,
+      totalCreditExpenses,
       expensesByCategory: Object.keys(expensesByCategory).map((name) => ({ name, value: expensesByCategory[name] })),
       expensesByPaymentType: Object.keys(expensesByPaymentType).map((name) => ({ name, value: expensesByPaymentType[name] })),
       incomesBySource: Object.keys(incomesBySource).map((name) => ({ name, value: incomesBySource[name] })),
